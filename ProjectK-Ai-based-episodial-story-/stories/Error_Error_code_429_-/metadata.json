@@ -1,0 +1,25 @@
+{
+  "title": "Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+  "created_at": "2025-04-22T00:42:45.295255",
+  "concept": "a haunted house where i met a mysterious man",
+  "genre": "Science Fiction",
+  "audience": "Children",
+  "episode_length": "Medium",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "Episode 1",
+      "created_at": "2025-04-22T00:43:00.654734",
+      "summary": "Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "characters": []
+    },
+    {
+      "number": 2,
+      "title": "Episode 2",
+      "created_at": "2025-04-22T00:43:11.715585",
+      "summary": "Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "characters": []
+    }
+  ],
+  "characters": {}
+}

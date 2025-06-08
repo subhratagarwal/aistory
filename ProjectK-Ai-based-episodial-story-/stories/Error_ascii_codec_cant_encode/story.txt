@@ -1,0 +1,9 @@
+# Error: 'ascii' codec can't encode character '\u2019' in position 133: ordinal not in range(128)
+
+
+
+Episode 1:
+Error: 'ascii' codec can't encode character '\u2019' in position 133: ordinal not in range(128)
+
+Episode 2:
+Error: 'ascii' codec can't encode character '\u2019' in position 133: ordinal not in range(128)

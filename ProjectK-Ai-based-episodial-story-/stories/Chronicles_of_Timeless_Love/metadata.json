@@ -1,0 +1,26 @@
+{
+  "title": "\"Chronicles of Timeless Love\"",
+  "created_at": "2025-04-07T02:10:24.064961",
+  "concept": "A time traveler falls in love with someone from the past",
+  "genre": "Science Fiction",
+  "audience": "All Ages",
+  "episode_length": "Medium",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "Episode 1",
+      "created_at": "2025-04-07T02:11:05.962945",
+      "summary": "In Episode 1: A Leap Through Time, we follow Dr. Emily Carter, a brilliant physicist who invents a time machine and travels back to 1819. There, she meets William, an artist, and they form a deep connection despite the challenges of time. Their love is threatened by the repercussions of Emily's presence in the past, leading to a choice between staying with William or navigating the complexities of love and time. The episode ends with Emily facing a pivotal decision that will shape their destiny, setting the stage for further exploration of their timeless bond in the Chronicles of Timeless Love.",
+      "characters": [
+        "William"
+      ]
+    }
+  ],
+  "characters": {
+    "Evelyn Carter": "A dedicated and curious physicist specializing in quantum mechanics and temporal physics. Evelyn is resourceful, intelligent, and compassionate, struggling with the ethics of time manipulation due to her deep love for William.",
+    "William Thorne": "Owner of a quaint bookstore in Paris, well-read, charming, and insightful. He dreams of a world beyond the conventional, which makes him receptive to Evelyn",
+    "Isabelle Mercier": "William",
+    "Marcus Carter": "Evelyn\u2019s older brother and a high-ranking official in the time travel oversight committee. He is protective of his sister and serves as a moral compass in her journey.",
+    "William": "Handsome artist from 1819, forms a deep connection with Emily"
+  }
+}

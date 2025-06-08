@@ -1,0 +1,13 @@
+{
+  "model_provider": "openai",
+  "openai_api_key": "",
+  "ollama_base_url": "http://localhost:11434",
+  "small_model_map": {
+    "openai": "gpt-3.5-turbo",
+    "ollama": "mistral"
+  },
+  "big_model_map": {
+    "openai": "gpt-4-turbo",
+    "ollama": "llama3"
+  }
+}

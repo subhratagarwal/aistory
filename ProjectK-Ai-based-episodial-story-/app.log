@@ -1,0 +1,618 @@
+2025-04-21 22:32:13,138 - config - INFO - Initial Model Provider: openai
+2025-04-21 22:32:13,139 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-21 22:32:13,140 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-21 22:32:13,140 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-21 22:34:25,481 - config - INFO - Initial Model Provider: openai
+2025-04-21 22:34:25,482 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-21 22:34:25,482 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-21 22:34:25,483 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-21 22:45:16,700 - config - INFO - Initial Model Provider: openai
+2025-04-21 22:45:16,700 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-21 22:45:16,701 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-21 22:45:16,701 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-21 22:46:37,515 - config - INFO - Initial Model Provider: openai
+2025-04-21 22:46:37,516 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-21 22:46:37,516 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-21 22:46:37,516 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-21 23:58:25,254 - config - INFO - Initial Model Provider: openai
+2025-04-21 23:58:25,255 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-21 23:58:25,255 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-21 23:58:25,256 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-22 00:00:58,465 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 00:00:58,467 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 00:00:58,467 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 00:01:16,959 - pipeline - INFO - Generating story for idea: a haunted house where a person is alone...
+2025-04-22 00:01:17,997 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:18,001 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:18,002 - pipeline - INFO - Created directory for story: stories\Error_Error_code_401_-
+2025-04-22 00:01:18,659 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:18,660 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:18,664 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_bible.txt
+2025-04-22 00:01:19,512 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:19,513 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:19,513 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 00:01:19,514 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:01:20,199 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:20,200 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:20,847 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:20,848 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:20,849 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:01:21,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:21,529 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:21,531 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:01:22,371 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:22,372 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:23,119 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:23,120 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:23,120 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:01:23,882 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:23,884 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:23,886 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:01:23,892 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story.txt
+2025-04-22 00:01:23,898 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_summaries.txt
+2025-04-22 00:01:23,898 - pipeline - INFO - Story 'Error_Error_code_401_-' generated successfully with 2 episodes
+2025-04-22 00:01:35,083 - pipeline - INFO - Generating story for idea: a haunted house where a person is alone...
+2025-04-22 00:01:35,952 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:35,953 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:35,954 - pipeline - INFO - Created directory for story: stories\Error_Error_code_401_-
+2025-04-22 00:01:36,967 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:36,968 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:36,970 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_bible.txt
+2025-04-22 00:01:37,889 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:37,890 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:37,890 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 00:01:37,891 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:01:38,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:38,746 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:39,400 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:39,401 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:39,401 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:01:40,154 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:40,155 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:40,157 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:01:40,824 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:40,825 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:41,435 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:41,436 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:41,437 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:01:42,327 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:01:42,329 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:01:42,330 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:01:42,332 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story.txt
+2025-04-22 00:01:42,334 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_summaries.txt
+2025-04-22 00:01:42,334 - pipeline - INFO - Story 'Error_Error_code_401_-' generated successfully with 2 episodes
+2025-04-22 00:01:59,785 - pipeline - INFO - Generating story for idea: a haunted house where a person is alone...
+2025-04-22 00:02:00,536 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:00,537 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:00,537 - pipeline - INFO - Created directory for story: stories\Error_Error_code_401_-
+2025-04-22 00:02:01,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:01,153 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:01,154 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_bible.txt
+2025-04-22 00:02:01,778 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:01,779 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:01,779 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 00:02:01,780 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:02:02,927 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:02,929 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:04,090 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:04,092 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:04,093 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:02:04,889 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:04,891 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:04,894 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:02:05,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:05,529 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:06,276 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:06,277 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:06,278 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:02:07,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:07,277 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:07,279 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:02:07,280 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story.txt
+2025-04-22 00:02:07,282 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_summaries.txt
+2025-04-22 00:02:07,283 - pipeline - INFO - Story 'Error_Error_code_401_-' generated successfully with 2 episodes
+2025-04-22 00:02:16,882 - pipeline - INFO - Generating story for idea: a haunted house where a person is alone...
+2025-04-22 00:02:18,247 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:18,248 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:18,249 - pipeline - INFO - Created directory for story: stories\Error_Error_code_401_-
+2025-04-22 00:02:18,928 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:18,930 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:18,931 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_bible.txt
+2025-04-22 00:02:19,646 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:19,647 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:19,647 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 00:02:19,650 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:02:21,221 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:21,222 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:21,869 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:21,870 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:21,870 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:02:22,663 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:22,664 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:22,667 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:02:23,255 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:23,256 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:25,242 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:25,244 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:25,245 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:02:25,990 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:02:25,993 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:02:25,997 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:02:26,000 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story.txt
+2025-04-22 00:02:26,003 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_summaries.txt
+2025-04-22 00:02:26,003 - pipeline - INFO - Story 'Error_Error_code_401_-' generated successfully with 2 episodes
+2025-04-22 00:05:08,884 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 00:05:08,886 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 00:05:08,887 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 00:05:15,835 - pipeline - INFO - Generating story for idea: a haunted house where a person is alone...
+2025-04-22 00:05:16,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:05:16,672 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:05:16,673 - pipeline - INFO - Created directory for story: stories\Error_Error_code_401_-
+2025-04-22 00:05:17,860 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:05:17,861 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:05:17,862 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_bible.txt
+2025-04-22 00:05:18,511 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:05:18,512 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:05:18,512 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 00:05:18,514 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:05:19,139 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:05:19,140 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:05:19,961 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:05:19,962 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:05:19,962 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:05:20,567 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:05:20,568 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:05:20,570 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:05:21,204 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:05:21,205 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:05:21,822 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:05:21,822 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:05:21,823 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:05:23,077 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:05:23,079 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:05:23,081 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:05:23,082 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story.txt
+2025-04-22 00:05:23,084 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_summaries.txt
+2025-04-22 00:05:23,085 - pipeline - INFO - Story 'Error_Error_code_401_-' generated successfully with 2 episodes
+2025-04-22 00:06:53,490 - pipeline - INFO - Generating story for idea: a haunted house where a person is alone...
+2025-04-22 00:06:54,359 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:06:54,360 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:06:54,361 - pipeline - INFO - Created directory for story: stories\Error_Error_code_401_-
+2025-04-22 00:06:54,950 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:06:54,951 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:06:54,953 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_bible.txt
+2025-04-22 00:06:56,048 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:06:56,048 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:06:56,049 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 00:06:56,050 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:06:56,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:06:56,690 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:06:57,329 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:06:57,330 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:06:57,330 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:06:57,996 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:06:57,996 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:06:57,997 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:06:58,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:06:58,578 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:06:59,306 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:06:59,306 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:06:59,307 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:06:59,918 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:06:59,919 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:06:59,920 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:06:59,922 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story.txt
+2025-04-22 00:06:59,924 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_summaries.txt
+2025-04-22 00:06:59,925 - pipeline - INFO - Story 'Error_Error_code_401_-' generated successfully with 2 episodes
+2025-04-22 00:07:27,094 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 00:07:27,095 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 00:07:27,096 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 00:08:21,115 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 00:08:21,115 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 00:08:21,116 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 00:08:48,293 - pipeline - INFO - Generating story for idea: a haunted house where a person is alone...
+2025-04-22 00:08:49,085 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:08:49,086 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:08:49,087 - pipeline - INFO - Created directory for story: stories\Error_Error_code_401_-
+2025-04-22 00:08:49,750 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:08:49,752 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:08:49,757 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_bible.txt
+2025-04-22 00:08:50,345 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:08:50,345 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:08:50,346 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 00:08:50,347 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:08:51,037 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:08:51,039 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:08:52,138 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:08:52,140 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:08:52,141 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:08:53,910 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:08:53,911 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:08:53,913 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:08:54,597 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:08:54,598 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:08:55,945 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:08:55,946 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:08:55,947 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:08:56,668 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:08:56,669 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************rMA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:08:56,672 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:08:56,673 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story.txt
+2025-04-22 00:08:56,676 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_summaries.txt
+2025-04-22 00:08:56,678 - pipeline - INFO - Story 'Error_Error_code_401_-' generated successfully with 2 episodes
+2025-04-22 00:12:36,137 - config - INFO - Initial Model Provider: openai
+2025-04-22 00:12:36,137 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-22 00:12:36,137 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-22 00:12:36,137 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-22 00:12:45,312 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 00:12:45,313 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 00:12:45,313 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 00:13:24,571 - pipeline - INFO - Generating story for idea: a haunted house where i found a mysterious door...
+2025-04-22 00:13:26,166 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:26,167 - openai._base_client - INFO - Retrying request to /chat/completions in 0.420660 seconds
+2025-04-22 00:13:26,874 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:26,875 - openai._base_client - INFO - Retrying request to /chat/completions in 0.959434 seconds
+2025-04-22 00:13:28,133 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:28,134 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:13:28,135 - pipeline - INFO - Created directory for story: stories\Error_Error_code_429_-
+2025-04-22 00:13:29,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-04-22 00:13:29,307 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-04-22 00:13:29,312 - pipeline - INFO - Saved content to stories\Error_Error_code_429_-\story_bible.txt
+2025-04-22 00:13:30,398 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:30,398 - openai._base_client - INFO - Retrying request to /chat/completions in 0.410450 seconds
+2025-04-22 00:13:31,092 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:31,093 - openai._base_client - INFO - Retrying request to /chat/completions in 0.910941 seconds
+2025-04-22 00:13:32,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:32,299 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:13:32,300 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 00:13:32,302 - pipeline - INFO - Saved metadata to stories\Error_Error_code_429_-\metadata.json
+2025-04-22 00:13:32,903 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:32,904 - openai._base_client - INFO - Retrying request to /chat/completions in 0.450471 seconds
+2025-04-22 00:13:33,651 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:33,652 - openai._base_client - INFO - Retrying request to /chat/completions in 0.976835 seconds
+2025-04-22 00:13:34,924 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:34,925 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:13:35,534 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:35,535 - openai._base_client - INFO - Retrying request to /chat/completions in 0.415869 seconds
+2025-04-22 00:13:36,250 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:36,251 - openai._base_client - INFO - Retrying request to /chat/completions in 0.962863 seconds
+2025-04-22 00:13:37,503 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:37,504 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:13:37,505 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:13:38,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:38,151 - openai._base_client - INFO - Retrying request to /chat/completions in 0.380513 seconds
+2025-04-22 00:13:38,826 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:38,827 - openai._base_client - INFO - Retrying request to /chat/completions in 0.817912 seconds
+2025-04-22 00:13:39,936 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:39,937 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:13:39,938 - pipeline - INFO - Saved metadata to stories\Error_Error_code_429_-\metadata.json
+2025-04-22 00:13:40,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:40,522 - openai._base_client - INFO - Retrying request to /chat/completions in 0.401610 seconds
+2025-04-22 00:13:41,211 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:41,212 - openai._base_client - INFO - Retrying request to /chat/completions in 0.979551 seconds
+2025-04-22 00:13:42,478 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:42,479 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:13:43,089 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:43,090 - openai._base_client - INFO - Retrying request to /chat/completions in 0.430706 seconds
+2025-04-22 00:13:43,815 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:43,816 - openai._base_client - INFO - Retrying request to /chat/completions in 0.824598 seconds
+2025-04-22 00:13:44,931 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:44,932 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:13:44,932 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:13:45,545 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:45,546 - openai._base_client - INFO - Retrying request to /chat/completions in 0.455005 seconds
+2025-04-22 00:13:46,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:46,279 - openai._base_client - INFO - Retrying request to /chat/completions in 0.962687 seconds
+2025-04-22 00:13:47,523 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:13:47,525 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:13:47,527 - pipeline - INFO - Saved metadata to stories\Error_Error_code_429_-\metadata.json
+2025-04-22 00:13:47,530 - pipeline - INFO - Saved content to stories\Error_Error_code_429_-\story.txt
+2025-04-22 00:13:47,532 - pipeline - INFO - Saved content to stories\Error_Error_code_429_-\story_summaries.txt
+2025-04-22 00:13:47,533 - pipeline - INFO - Story 'Error_Error_code_429_-' generated successfully with 2 episodes
+2025-04-22 00:14:06,970 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 00:14:06,970 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 00:14:06,970 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 00:14:25,482 - pipeline - INFO - Generating story for idea: a haunted house where i found a mysterious door...
+2025-04-22 00:14:26,194 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:14:26,195 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************BIA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:14:26,196 - pipeline - INFO - Created directory for story: stories\Error_Error_code_401_-
+2025-04-22 00:14:27,382 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:14:27,385 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************BIA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:14:27,389 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_bible.txt
+2025-04-22 00:14:28,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:14:28,154 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************BIA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:14:28,155 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 00:14:28,157 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:14:28,827 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:14:28,828 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************BIA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:14:29,476 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:14:29,477 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************BIA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:14:29,478 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:14:30,320 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:14:30,321 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************BIA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:14:30,322 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:14:30,985 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:14:30,986 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************BIA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:14:31,806 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:14:31,808 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************BIA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:14:31,809 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:14:32,444 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 00:14:32,445 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: "sk-proj**********************************************************************************************************************************************************BIA". You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 00:14:32,447 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 00:14:32,450 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story.txt
+2025-04-22 00:14:32,453 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_summaries.txt
+2025-04-22 00:14:32,454 - pipeline - INFO - Story 'Error_Error_code_401_-' generated successfully with 2 episodes
+2025-04-22 00:31:24,734 - config - INFO - Initial Model Provider: openai
+2025-04-22 00:31:24,735 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-22 00:31:24,735 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-22 00:31:24,736 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-22 00:33:31,265 - config - INFO - Initial Model Provider: openai
+2025-04-22 00:33:31,275 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-22 00:33:31,276 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-22 00:33:31,276 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-22 00:33:31,372 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 00:33:31,373 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 00:33:31,373 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 00:33:59,255 - pipeline - INFO - Generating story for idea: a haunted house where i met with a mysterious pers...
+2025-04-22 00:34:00,799 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:00,803 - openai._base_client - INFO - Retrying request to /chat/completions in 0.438349 seconds
+2025-04-22 00:34:01,616 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:01,619 - openai._base_client - INFO - Retrying request to /chat/completions in 0.838291 seconds
+2025-04-22 00:34:02,845 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:02,850 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:34:02,853 - pipeline - INFO - Created directory for story: stories\Error_Error_code_429_-
+2025-04-22 00:34:04,033 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-04-22 00:34:04,037 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-04-22 00:34:04,047 - pipeline - INFO - Saved content to stories\Error_Error_code_429_-\story_bible.txt
+2025-04-22 00:34:05,313 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:05,315 - openai._base_client - INFO - Retrying request to /chat/completions in 0.438541 seconds
+2025-04-22 00:34:06,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:06,100 - openai._base_client - INFO - Retrying request to /chat/completions in 0.894630 seconds
+2025-04-22 00:34:07,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:07,352 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:34:07,353 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 00:34:07,365 - pipeline - INFO - Saved metadata to stories\Error_Error_code_429_-\metadata.json
+2025-04-22 00:34:09,340 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:09,343 - openai._base_client - INFO - Retrying request to /chat/completions in 0.401303 seconds
+2025-04-22 00:34:10,122 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:10,126 - openai._base_client - INFO - Retrying request to /chat/completions in 0.906567 seconds
+2025-04-22 00:34:11,347 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:11,351 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:34:12,614 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:12,616 - openai._base_client - INFO - Retrying request to /chat/completions in 0.443724 seconds
+2025-04-22 00:34:13,392 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:13,396 - openai._base_client - INFO - Retrying request to /chat/completions in 0.967888 seconds
+2025-04-22 00:34:14,730 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:14,734 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:34:14,736 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:34:15,929 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:15,932 - openai._base_client - INFO - Retrying request to /chat/completions in 0.385705 seconds
+2025-04-22 00:34:16,667 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:16,670 - openai._base_client - INFO - Retrying request to /chat/completions in 0.800596 seconds
+2025-04-22 00:34:17,875 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:17,880 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:34:17,889 - pipeline - INFO - Saved metadata to stories\Error_Error_code_429_-\metadata.json
+2025-04-22 00:34:19,742 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:19,744 - openai._base_client - INFO - Retrying request to /chat/completions in 0.436853 seconds
+2025-04-22 00:34:20,519 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:20,522 - openai._base_client - INFO - Retrying request to /chat/completions in 0.759997 seconds
+2025-04-22 00:34:21,614 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:21,617 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:34:22,767 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:22,769 - openai._base_client - INFO - Retrying request to /chat/completions in 0.434244 seconds
+2025-04-22 00:34:23,584 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:23,585 - openai._base_client - INFO - Retrying request to /chat/completions in 0.938052 seconds
+2025-04-22 00:34:24,858 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:24,861 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:34:24,862 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:34:26,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:26,192 - openai._base_client - INFO - Retrying request to /chat/completions in 0.485130 seconds
+2025-04-22 00:34:27,090 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:27,093 - openai._base_client - INFO - Retrying request to /chat/completions in 0.831508 seconds
+2025-04-22 00:34:28,218 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:34:28,220 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:34:28,222 - pipeline - INFO - Saved metadata to stories\Error_Error_code_429_-\metadata.json
+2025-04-22 00:34:28,228 - pipeline - INFO - Saved content to stories\Error_Error_code_429_-\story.txt
+2025-04-22 00:34:28,231 - pipeline - INFO - Saved content to stories\Error_Error_code_429_-\story_summaries.txt
+2025-04-22 00:34:28,232 - pipeline - INFO - Story 'Error_Error_code_429_-' generated successfully with 2 episodes
+2025-04-22 00:40:43,922 - config - INFO - Initial Model Provider: openai
+2025-04-22 00:40:43,923 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-22 00:40:43,923 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-22 00:40:43,924 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-22 00:42:05,897 - config - INFO - Initial Model Provider: openai
+2025-04-22 00:42:05,897 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-22 00:42:05,898 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-22 00:42:05,898 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-22 00:42:24,028 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 00:42:24,028 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 00:42:24,028 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 00:42:41,145 - pipeline - INFO - Generating story for idea: a haunted house where i met a mysterious man...
+2025-04-22 00:42:42,882 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:42,884 - openai._base_client - INFO - Retrying request to /chat/completions in 0.425231 seconds
+2025-04-22 00:42:43,610 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:43,613 - openai._base_client - INFO - Retrying request to /chat/completions in 0.978257 seconds
+2025-04-22 00:42:45,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:45,289 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:42:45,293 - pipeline - INFO - Created directory for story: stories\Error_Error_code_429_-
+2025-04-22 00:42:46,565 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-04-22 00:42:46,569 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-04-22 00:42:46,577 - pipeline - INFO - Saved content to stories\Error_Error_code_429_-\story_bible.txt
+2025-04-22 00:42:48,365 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:48,368 - openai._base_client - INFO - Retrying request to /chat/completions in 0.499075 seconds
+2025-04-22 00:42:49,186 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:49,189 - openai._base_client - INFO - Retrying request to /chat/completions in 0.796195 seconds
+2025-04-22 00:42:50,332 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:50,335 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:42:50,337 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 00:42:50,348 - pipeline - INFO - Saved metadata to stories\Error_Error_code_429_-\metadata.json
+2025-04-22 00:42:51,515 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:51,517 - openai._base_client - INFO - Retrying request to /chat/completions in 0.493453 seconds
+2025-04-22 00:42:52,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:52,346 - openai._base_client - INFO - Retrying request to /chat/completions in 0.835785 seconds
+2025-04-22 00:42:53,497 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:53,502 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:42:55,270 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:55,273 - openai._base_client - INFO - Retrying request to /chat/completions in 0.460593 seconds
+2025-04-22 00:42:56,141 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:56,145 - openai._base_client - INFO - Retrying request to /chat/completions in 0.761293 seconds
+2025-04-22 00:42:57,225 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:57,230 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:42:57,231 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:42:58,498 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:58,501 - openai._base_client - INFO - Retrying request to /chat/completions in 0.486090 seconds
+2025-04-22 00:42:59,297 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:42:59,299 - openai._base_client - INFO - Retrying request to /chat/completions in 0.937951 seconds
+2025-04-22 00:43:00,649 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:43:00,653 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:43:00,662 - pipeline - INFO - Saved metadata to stories\Error_Error_code_429_-\metadata.json
+2025-04-22 00:43:02,394 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:43:02,397 - openai._base_client - INFO - Retrying request to /chat/completions in 0.456801 seconds
+2025-04-22 00:43:03,160 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:43:03,164 - openai._base_client - INFO - Retrying request to /chat/completions in 0.959374 seconds
+2025-04-22 00:43:04,438 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:43:04,444 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:43:06,329 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:43:06,331 - openai._base_client - INFO - Retrying request to /chat/completions in 0.476358 seconds
+2025-04-22 00:43:07,168 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:43:07,170 - openai._base_client - INFO - Retrying request to /chat/completions in 0.979756 seconds
+2025-04-22 00:43:08,485 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:43:08,489 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:43:08,490 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 00:43:09,734 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:43:09,737 - openai._base_client - INFO - Retrying request to /chat/completions in 0.442433 seconds
+2025-04-22 00:43:10,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:43:10,498 - openai._base_client - INFO - Retrying request to /chat/completions in 0.908913 seconds
+2025-04-22 00:43:11,710 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-22 00:43:11,714 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-04-22 00:43:11,719 - pipeline - INFO - Saved metadata to stories\Error_Error_code_429_-\metadata.json
+2025-04-22 00:43:11,727 - pipeline - INFO - Saved content to stories\Error_Error_code_429_-\story.txt
+2025-04-22 00:43:11,735 - pipeline - INFO - Saved content to stories\Error_Error_code_429_-\story_summaries.txt
+2025-04-22 00:43:11,736 - pipeline - INFO - Story 'Error_Error_code_429_-' generated successfully with 2 episodes
+2025-04-22 02:08:24,321 - config - INFO - Initial Model Provider: openai
+2025-04-22 02:08:24,322 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-22 02:08:24,322 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-22 02:08:24,322 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-22 02:08:39,198 - config - INFO - Configuration reloaded, using provider: ollama
+2025-04-22 02:08:39,198 - config - INFO - Small Model: mistral
+2025-04-22 02:08:39,198 - config - INFO - Big Model: llama3
+2025-04-22 02:09:22,489 - pipeline - INFO - Generating story for idea: in a haunted house i met with a mystrious person...
+2025-04-22 02:09:25,026 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 02:10:56,904 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 02:17:57,280 - pipeline - INFO - Created directory for story: stories\Title_Echoes_from_the_Ghostly
+2025-04-22 02:18:00,328 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 02:24:30,449 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 02:29:02,981 - pipeline - WARNING - File not found: stories\Title_Echoes_from_the_Ghostly\story.txt
+2025-04-22 02:48:19,572 - config - INFO - Initial Model Provider: ollama
+2025-04-22 02:48:19,573 - config - INFO - Initial Small Model: mistral
+2025-04-22 02:48:19,573 - config - INFO - Initial Big Model: llama3
+2025-04-22 02:48:19,573 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-22 02:48:39,171 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 02:48:39,171 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 02:48:39,172 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 02:48:49,863 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 02:48:49,864 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 02:48:49,864 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 02:49:15,529 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 02:49:15,530 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 02:49:15,530 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 02:49:52,881 - pipeline - INFO - Generating story for idea: i met a mysterious man in a haunted house...
+2025-04-22 02:49:53,668 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 02:49:53,671 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************IIwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 02:49:53,673 - pipeline - INFO - Created directory for story: stories\Error_Error_code_401_-
+2025-04-22 02:49:54,302 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 02:49:54,303 - query_handler - ERROR - Error generating response with gpt-4-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************IIwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 02:49:54,304 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_bible.txt
+2025-04-22 02:49:54,883 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 02:49:54,884 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************IIwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 02:49:54,884 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 02:49:54,887 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 02:49:56,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 02:49:56,045 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************IIwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 02:49:56,639 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 02:49:56,639 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************IIwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 02:49:56,640 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 02:49:57,245 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 02:49:57,246 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************IIwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 02:49:57,248 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 02:49:57,840 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 02:49:57,841 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************IIwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 02:49:58,436 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 02:49:58,437 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************IIwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 02:49:58,437 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-04-22 02:49:59,070 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-22 02:49:59,071 - query_handler - ERROR - Error generating response with gpt-3.5-turbo: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************IIwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-04-22 02:49:59,073 - pipeline - INFO - Saved metadata to stories\Error_Error_code_401_-\metadata.json
+2025-04-22 02:49:59,078 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story.txt
+2025-04-22 02:49:59,081 - pipeline - INFO - Saved content to stories\Error_Error_code_401_-\story_summaries.txt
+2025-04-22 02:49:59,082 - pipeline - INFO - Story 'Error_Error_code_401_-' generated successfully with 2 episodes
+2025-04-22 02:50:48,959 - config - INFO - Configuration reloaded, using provider: ollama
+2025-04-22 02:50:48,960 - config - INFO - Small Model: mistral
+2025-04-22 02:50:48,960 - config - INFO - Big Model: llama3
+2025-04-22 03:02:51,398 - config - INFO - Initial Model Provider: ollama
+2025-04-22 03:02:51,398 - config - INFO - Initial Small Model: mistral
+2025-04-22 03:02:51,399 - config - INFO - Initial Big Model: llama3
+2025-04-22 03:02:51,399 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-22 03:03:46,229 - pipeline - INFO - Generating story for idea: a beautiful season ...
+2025-04-22 03:03:47,267 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 03:05:33,311 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 03:09:14,370 - pipeline - INFO - Created directory for story: stories\Title_Glimmering_Autumns_Enigma_In
+2025-04-22 03:09:16,845 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 03:12:11,598 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 03:19:06,624 - pipeline - INFO - Generating story for idea: a detective with a abilty to see transparent acros...
+2025-04-22 03:19:11,425 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 03:19:26,061 - pipeline - INFO - Saved content to stories\Title_Glimmering_Autumns_Enigma_In\story_bible.txt
+2025-04-22 03:19:28,903 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 03:19:37,480 - pipeline - WARNING - File not found: stories\Title_Glimmering_Autumns_Enigma_In\story.txt
+2025-04-22 03:20:30,788 - pipeline - INFO - Generating story for idea: a detective who can see transparent across walls...
+2025-04-22 03:20:34,403 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 03:20:53,846 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 03:24:33,114 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 03:28:03,031 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 03:36:33,159 - pipeline - INFO - Created directory for story: stories\Title_The_Wall-Gazer_Detective_In
+2025-04-22 03:36:37,688 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 03:36:46,647 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 03:36:46,684 - pipeline - INFO - Saved metadata to stories\Title_Glimmering_Autumns_Enigma_In\metadata.json
+2025-04-22 03:36:46,687 - query_handler - INFO - Using chunking strategy for long prompt
+2025-04-22 03:36:46,693 - query_handler - INFO - Split prompt into 2 chunks
+2025-04-22 03:36:50,049 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 03:36:51,151 - pipeline - INFO - Created directory for story: stories\Title_Wall-Gazer_Whispers_In_the
+2025-04-22 03:36:53,645 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 03:40:06,810 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 08:28:45,478 - config - INFO - Initial Model Provider: ollama
+2025-04-22 08:28:45,497 - config - INFO - Initial Small Model: mistral
+2025-04-22 08:28:45,502 - config - INFO - Initial Big Model: llama3
+2025-04-22 08:28:45,503 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-22 08:29:59,518 - pipeline - INFO - Generating story for idea:  a detective perosn is very clever...
+2025-04-22 08:30:02,147 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 08:31:31,341 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 08:34:23,409 - pipeline - INFO - Created directory for story: stories\Title_Bright_Minds_Mysterious_Skies
+2025-04-22 08:34:25,910 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 08:37:21,632 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 08:45:48,522 - pipeline - INFO - Saved content to stories\Title_Bright_Minds_Mysterious_Skies\story_bible.txt
+2025-04-22 08:45:51,126 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 08:55:37,851 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 08:59:31,113 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-04-22 08:59:31,144 - pipeline - INFO - Saved metadata to stories\Title_Bright_Minds_Mysterious_Skies\metadata.json
+2025-04-22 08:59:31,148 - query_handler - INFO - Using chunking strategy for long prompt
+2025-04-22 08:59:31,150 - query_handler - INFO - Split prompt into 2 chunks
+2025-04-22 08:59:33,617 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 09:04:37,955 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-22 09:09:17,748 - query_handler - INFO - Processed chunk 1/2
+2025-04-22 09:09:19,710 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 09:09:19,711 - query_handler - INFO - Cache hit for query with model mistral
+2025-04-22 09:09:19,712 - query_handler - INFO - Processed chunk 2/2
+2025-04-22 09:09:20,957 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-04-22 10:03:31,461 - config - INFO - Initial Model Provider: ollama
+2025-04-22 10:03:31,462 - config - INFO - Initial Small Model: mistral
+2025-04-22 10:03:31,463 - config - INFO - Initial Big Model: llama3
+2025-04-22 10:03:31,465 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-04-22 10:03:44,730 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 10:03:44,732 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 10:03:44,734 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 10:03:57,904 - config - INFO - Configuration reloaded, using provider: openai
+2025-04-22 10:03:57,904 - config - INFO - Small Model: gpt-3.5-turbo
+2025-04-22 10:03:57,905 - config - INFO - Big Model: gpt-4-turbo
+2025-04-22 17:52:27,468 - config - INFO - Initial Model Provider: openai
+2025-04-22 17:52:27,472 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-04-22 17:52:27,472 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-04-22 17:52:27,473 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
