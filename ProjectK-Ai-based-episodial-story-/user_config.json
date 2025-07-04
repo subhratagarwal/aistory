@@ -1,5 +1,5 @@
 {
-  "model_provider": "openai",
+  "model_provider": "ollama",
   "openai_api_key": "",
   "ollama_base_url": "http://localhost:11434",
   "small_model_map": {

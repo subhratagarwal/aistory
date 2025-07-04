@@ -616,3 +616,470 @@
 2025-04-22 17:52:27,472 - config - INFO - Initial Small Model: gpt-3.5-turbo
 2025-04-22 17:52:27,472 - config - INFO - Initial Big Model: gpt-4-turbo
 2025-04-22 17:52:27,473 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-09 01:49:56,068 - config - INFO - Initial Model Provider: openai
+2025-06-09 01:49:56,069 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-06-09 01:49:56,069 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-06-09 01:49:56,069 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-15 15:46:11,276 - config - INFO - Initial Model Provider: openai
+2025-06-15 15:46:11,278 - config - INFO - Initial Small Model: gpt-3.5-turbo
+2025-06-15 15:46:11,279 - config - INFO - Initial Big Model: gpt-4-turbo
+2025-06-15 15:46:11,279 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-15 15:54:55,556 - config - INFO - Configuration reloaded, using provider: ollama
+2025-06-15 15:54:55,557 - config - INFO - Small Model: mistral
+2025-06-15 15:54:55,558 - config - INFO - Big Model: llama3
+2025-06-16 21:40:47,536 - config - INFO - Initial Model Provider: ollama
+2025-06-16 21:40:47,537 - config - INFO - Initial Small Model: mistral
+2025-06-16 21:40:47,539 - config - INFO - Initial Big Model: llama3
+2025-06-16 21:40:47,540 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-17 23:23:10,573 - config - INFO - Initial Model Provider: ollama
+2025-06-17 23:23:10,574 - config - INFO - Initial Small Model: mistral
+2025-06-17 23:23:10,575 - config - INFO - Initial Big Model: llama3
+2025-06-17 23:23:10,575 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-18 10:36:17,239 - config - INFO - Initial Model Provider: ollama
+2025-06-18 10:36:17,240 - config - INFO - Initial Small Model: mistral
+2025-06-18 10:36:17,241 - config - INFO - Initial Big Model: llama3
+2025-06-18 10:36:17,241 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-25 15:40:48,001 - config - INFO - Initial Model Provider: ollama
+2025-06-25 15:40:48,001 - config - INFO - Initial Small Model: mistral
+2025-06-25 15:40:48,001 - config - INFO - Initial Big Model: llama3
+2025-06-25 15:40:48,002 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-25 21:59:08,130 - config - INFO - Initial Model Provider: ollama
+2025-06-25 21:59:08,131 - config - INFO - Initial Small Model: mistral
+2025-06-25 21:59:08,131 - config - INFO - Initial Big Model: llama3
+2025-06-25 21:59:08,132 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-25 21:59:19,773 - config - INFO - Configuration reloaded, using provider: openai
+2025-06-25 21:59:19,779 - config - INFO - Small Model: gpt-3.5-turbo
+2025-06-25 21:59:19,780 - config - INFO - Big Model: gpt-4-turbo
+2025-06-25 21:59:35,942 - config - INFO - Configuration reloaded, using provider: ollama
+2025-06-25 21:59:35,942 - config - INFO - Small Model: mistral
+2025-06-25 21:59:35,942 - config - INFO - Big Model: llama3
+2025-06-26 01:20:54,640 - config - INFO - Initial Model Provider: ollama
+2025-06-26 01:20:54,641 - config - INFO - Initial Small Model: mistral
+2025-06-26 01:20:54,641 - config - INFO - Initial Big Model: llama3
+2025-06-26 01:20:54,641 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-26 01:21:25,118 - pipeline - INFO - Generating story for idea: a detective man...
+2025-06-26 01:21:26,579 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 01:21:59,373 - pipeline - INFO - Generating story for idea: a detective man...
+2025-06-26 01:22:06,340 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 01:22:43,656 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 01:23:30,363 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 01:27:31,126 - pipeline - INFO - Generating story for idea: a detective man...
+2025-06-26 01:27:39,987 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 01:28:38,731 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 01:28:55,991 - pipeline - INFO - Created directory for story: stories\Title_Galactic_Gumshoe_Grayson_Story
+2025-06-26 01:28:58,883 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 01:29:55,836 - pipeline - INFO - Created directory for story: stories\Title_Galactic_Gumshoe_Gus_In
+2025-06-26 01:29:58,655 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 01:30:24,912 - pipeline - INFO - Generating story for idea: a detective man...
+2025-06-26 01:30:30,228 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 01:34:01,616 - pipeline - INFO - Created directory for story: stories\Title_Galactic_Gumshoe_Mysteries_Unraveled
+2025-06-26 01:34:04,415 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 01:45:01,577 - config - INFO - Initial Model Provider: ollama
+2025-06-26 01:45:01,578 - config - INFO - Initial Small Model: mistral
+2025-06-26 01:45:01,578 - config - INFO - Initial Big Model: llama3
+2025-06-26 01:45:01,579 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-26 01:47:07,976 - pipeline - INFO - Generating story for idea: a detective man
+...
+2025-06-26 01:47:09,220 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 01:48:41,266 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 01:49:02,139 - query_handler - ERROR - Error generating response with mistral: an error was encountered while running the model: read tcp 127.0.0.1:52000->127.0.0.1:51998: wsarecv: An existing connection was forcibly closed by the remote host. (status code: -1)
+2025-06-26 01:49:02,301 - pipeline - INFO - Created directory for story: stories\Error_an_error_was_encountered
+2025-06-26 01:49:05,702 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 01:57:40,457 - config - INFO - Initial Model Provider: ollama
+2025-06-26 01:57:40,458 - config - INFO - Initial Small Model: mistral
+2025-06-26 01:57:40,459 - config - INFO - Initial Big Model: llama3
+2025-06-26 01:57:40,459 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-26 01:58:03,690 - pipeline - INFO - Generating story for idea: wife killed a man...
+2025-06-26 01:58:06,211 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 01:59:21,316 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 02:03:13,442 - pipeline - INFO - Created directory for story: stories\Title_Mystery_of_the_Midnight
+2025-06-26 02:03:15,059 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 02:07:39,873 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 02:15:48,875 - pipeline - INFO - Saved content to stories\Title_Mystery_of_the_Midnight\story_bible.txt
+2025-06-26 02:15:50,732 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 02:21:52,512 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 02:29:51,112 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-06-26 02:29:51,183 - pipeline - INFO - Saved metadata to stories\Title_Mystery_of_the_Midnight\metadata.json
+2025-06-26 02:29:51,186 - query_handler - INFO - Using chunking strategy for long prompt
+2025-06-26 02:29:51,188 - query_handler - INFO - Split prompt into 2 chunks
+2025-06-26 02:29:53,467 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 02:33:50,167 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 09:19:20,270 - query_handler - INFO - Processed chunk 1/2
+2025-06-26 09:19:22,703 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 09:19:22,708 - query_handler - INFO - Cache hit for query with model mistral
+2025-06-26 09:19:22,709 - query_handler - INFO - Processed chunk 2/2
+2025-06-26 09:19:25,498 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 09:26:17,492 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 09:35:03,196 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 11:00:48,770 - pipeline - WARNING - File not found: stories\Title_Galactic_Gumshoe_Gus_In\story.txt
+2025-06-26 11:05:50,663 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 11:10:49,881 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-06-26 11:10:53,449 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 11:17:02,274 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 11:21:52,245 - pipeline - INFO - Saved metadata to stories\Title_Mystery_of_the_Midnight\metadata.json
+2025-06-26 11:21:52,331 - query_handler - INFO - Using chunking strategy for long prompt
+2025-06-26 11:21:52,343 - query_handler - INFO - Split prompt into 3 chunks
+2025-06-26 11:21:55,395 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 11:26:18,416 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 11:34:41,728 - query_handler - INFO - Processed chunk 1/3
+2025-06-26 11:34:45,657 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 11:34:45,660 - query_handler - INFO - Cache hit for query with model mistral
+2025-06-26 11:34:45,661 - query_handler - INFO - Processed chunk 2/3
+2025-06-26 11:34:48,440 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 11:34:48,441 - query_handler - INFO - Cache hit for query with model mistral
+2025-06-26 11:34:48,442 - query_handler - INFO - Processed chunk 3/3
+2025-06-26 11:34:51,166 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 11:47:03,997 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 11:53:12,902 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 11:57:53,171 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 12:02:21,122 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 12:06:38,897 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 12:10:21,352 - pipeline - INFO - Saved metadata to stories\Title_Mystery_of_the_Midnight\metadata.json
+2025-06-26 12:10:21,396 - pipeline - INFO - Saved content to stories\Title_Mystery_of_the_Midnight\story.txt
+2025-06-26 12:10:21,404 - pipeline - INFO - Saved content to stories\Title_Mystery_of_the_Midnight\story_summaries.txt
+2025-06-26 12:10:21,408 - pipeline - INFO - Story 'Title_Mystery_of_the_Midnight' generated successfully with 2 episodes
+2025-06-26 12:41:32,213 - config - INFO - Initial Model Provider: ollama
+2025-06-26 12:41:32,214 - config - INFO - Initial Small Model: mistral:7b-text-q4_0
+2025-06-26 12:41:32,214 - config - INFO - Initial Big Model: mistral:7b-text-q4_0
+2025-06-26 12:41:32,215 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-26 12:41:35,284 - config - INFO - Configuration reloaded, using provider: ollama
+2025-06-26 12:41:35,284 - config - INFO - Small Model: mistral
+2025-06-26 12:41:35,284 - config - INFO - Big Model: llama3
+2025-06-26 12:41:53,148 - pipeline - INFO - Generating story for idea: shakespeare...
+2025-06-26 12:41:54,263 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 12:43:29,417 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 12:49:02,518 - pipeline - INFO - Created directory for story: stories\Title_Bards_Echo_In_the
+2025-06-26 12:49:06,524 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 12:53:25,606 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 13:13:25,202 - config - INFO - Initial Model Provider: ollama
+2025-06-26 13:13:25,203 - config - INFO - Initial Small Model: mistral
+2025-06-26 13:13:25,203 - config - INFO - Initial Big Model: llama3
+2025-06-26 13:13:25,204 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-26 13:13:29,907 - config - INFO - Configuration reloaded, using provider: ollama
+2025-06-26 13:13:29,908 - config - INFO - Small Model: mistral:7b-text-q4_0
+2025-06-26 13:13:29,908 - config - INFO - Big Model: mistral:7b-text-q4_0
+2025-06-26 13:32:08,667 - config - INFO - Initial Model Provider: ollama
+2025-06-26 13:32:08,668 - config - INFO - Initial Small Model: mistral:7b-text-q4_0
+2025-06-26 13:32:08,668 - config - INFO - Initial Big Model: mistral:7b-text-q4_0
+2025-06-26 13:32:08,669 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-26 13:32:08,807 - config - INFO - Configuration reloaded, using provider: ollama
+2025-06-26 13:32:08,808 - config - INFO - Small Model: mistral
+2025-06-26 13:32:08,809 - config - INFO - Big Model: llama3
+2025-06-26 13:46:35,254 - config - INFO - Initial Model Provider: ollama
+2025-06-26 13:46:35,255 - config - INFO - Initial Small Model: mistral
+2025-06-26 13:46:35,255 - config - INFO - Initial Big Model: llama3
+2025-06-26 13:46:35,255 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-26 13:46:45,639 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 13:48:52,127 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 13:52:56,656 - pipeline - INFO - Generating story for idea: on a barren island...
+2025-06-26 13:53:03,639 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 13:53:36,207 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 13:53:40,839 - query_handler - INFO - Querying with memory context
+2025-06-26 13:53:42,843 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 13:56:39,900 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 14:04:35,208 - pipeline - INFO - Created directory for story: stories\Title_Island_of_Whispers_In
+2025-06-26 14:04:37,917 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 14:05:16,089 - query_handler - INFO - Using chunking strategy for long prompt
+2025-06-26 14:05:16,098 - query_handler - INFO - Split prompt into 2 chunks
+2025-06-26 14:05:18,540 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 14:10:00,433 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 14:16:08,012 - pipeline - INFO - Saved content to stories\Title_Island_of_Whispers_In\story_bible.txt
+2025-06-26 14:16:10,255 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 14:18:57,419 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 14:23:56,271 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 14:24:00,599 - pipeline - WARNING - File not found: stories\Title_Island_of_Whispers_In\story.txt
+2025-06-26 14:31:02,041 - pipeline - INFO - Saved metadata to stories\Title_Island_of_Whispers_In\metadata.json
+2025-06-26 14:31:02,208 - query_handler - INFO - Using chunking strategy for long prompt
+2025-06-26 14:31:02,234 - query_handler - INFO - Split prompt into 2 chunks
+2025-06-26 14:31:09,634 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 14:35:04,101 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 14:36:50,806 - query_handler - INFO - Processed chunk 1/2
+2025-06-26 14:36:54,124 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 14:36:54,126 - query_handler - INFO - Cache hit for query with model mistral
+2025-06-26 14:36:54,127 - query_handler - INFO - Processed chunk 2/2
+2025-06-26 14:36:57,553 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 14:47:17,954 - pipeline - INFO - Generating story for idea: a woman met with a man...
+2025-06-26 14:47:23,826 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 14:47:44,770 - query_handler - INFO - Processed chunk 1/2
+2025-06-26 14:47:47,115 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 14:47:47,116 - query_handler - INFO - Cache hit for query with model mistral
+2025-06-26 14:47:47,116 - query_handler - INFO - Processed chunk 2/2
+2025-06-26 14:47:48,892 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 14:52:08,846 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 15:00:32,289 - pipeline - INFO - Saved content to stories\Chronicles_of_Timeless_Love\story.txt
+2025-06-26 15:00:36,732 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 15:05:11,163 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 15:15:02,435 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 16:21:12,647 - config - INFO - Initial Model Provider: ollama
+2025-06-26 16:21:12,647 - config - INFO - Initial Small Model: mistral:7b-text-q4_0
+2025-06-26 16:21:12,647 - config - INFO - Initial Big Model: mistral:7b-text-q4_0
+2025-06-26 16:21:12,648 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-06-26 16:21:16,301 - config - INFO - Configuration reloaded, using provider: ollama
+2025-06-26 16:21:16,301 - config - INFO - Small Model: mistral
+2025-06-26 16:21:16,301 - config - INFO - Big Model: llama3
+2025-06-26 16:21:48,789 - pipeline - INFO - Generating story for idea: iron man created a new suit mark up - 85 armor ...
+2025-06-26 16:21:49,936 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 16:22:58,861 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 16:29:21,943 - pipeline - INFO - Created directory for story: stories\Title_Ironhearts_85th_Quest_The
+2025-06-26 16:29:24,111 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 16:33:56,591 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 16:40:07,750 - pipeline - INFO - Saved content to stories\Title_Ironhearts_85th_Quest_The\story_bible.txt
+2025-06-26 16:40:09,879 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 16:45:06,711 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 16:49:00,477 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-06-26 16:49:00,519 - pipeline - INFO - Saved metadata to stories\Title_Ironhearts_85th_Quest_The\metadata.json
+2025-06-26 16:49:00,523 - query_handler - INFO - Using chunking strategy for long prompt
+2025-06-26 16:49:00,528 - query_handler - INFO - Split prompt into 3 chunks
+2025-06-26 16:49:02,482 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 16:51:11,635 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 16:56:15,080 - query_handler - INFO - Processed chunk 1/3
+2025-06-26 16:56:16,580 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 16:56:16,582 - query_handler - INFO - Cache hit for query with model mistral
+2025-06-26 16:56:16,583 - query_handler - INFO - Processed chunk 2/3
+2025-06-26 16:56:17,747 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 16:56:17,748 - query_handler - INFO - Cache hit for query with model mistral
+2025-06-26 16:56:17,751 - query_handler - INFO - Processed chunk 3/3
+2025-06-26 16:56:18,974 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 17:03:23,783 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 17:07:48,840 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 17:10:45,893 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 17:13:33,970 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 17:17:02,361 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 17:19:32,159 - pipeline - INFO - Saved metadata to stories\Title_Ironhearts_85th_Quest_The\metadata.json
+2025-06-26 17:19:32,161 - query_handler - INFO - Using chunking strategy for long prompt
+2025-06-26 17:19:32,162 - query_handler - INFO - Split prompt into 4 chunks
+2025-06-26 17:19:33,908 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 17:21:51,510 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 17:27:12,265 - query_handler - INFO - Processed chunk 1/4
+2025-06-26 17:27:14,504 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 17:27:14,506 - query_handler - INFO - Cache hit for query with model mistral
+2025-06-26 17:27:14,507 - query_handler - INFO - Processed chunk 2/4
+2025-06-26 17:27:17,420 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 17:27:17,420 - query_handler - INFO - Cache hit for query with model mistral
+2025-06-26 17:27:17,421 - query_handler - INFO - Processed chunk 3/4
+2025-06-26 17:27:19,943 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 17:27:19,943 - query_handler - INFO - Cache hit for query with model mistral
+2025-06-26 17:27:19,944 - query_handler - INFO - Processed chunk 4/4
+2025-06-26 17:27:23,997 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 17:35:28,079 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 17:40:15,356 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 17:44:16,454 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 17:46:28,443 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-06-26 17:46:30,394 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-06-26 17:50:39,810 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-26 17:54:20,962 - pipeline - INFO - Saved metadata to stories\Title_Ironhearts_85th_Quest_The\metadata.json
+2025-06-26 17:54:20,978 - pipeline - INFO - Saved content to stories\Title_Ironhearts_85th_Quest_The\story.txt
+2025-06-26 17:54:20,983 - pipeline - INFO - Saved content to stories\Title_Ironhearts_85th_Quest_The\story_summaries.txt
+2025-06-26 17:54:20,985 - pipeline - INFO - Story 'Title_Ironhearts_85th_Quest_The' generated successfully with 2 episodes
+2025-07-02 18:24:03,762 - config - INFO - Initial Model Provider: ollama
+2025-07-02 18:24:03,763 - config - INFO - Initial Small Model: mistral
+2025-07-02 18:24:03,763 - config - INFO - Initial Big Model: llama3
+2025-07-02 18:24:03,763 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-07-02 18:24:57,454 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:25:01,548 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-02 18:25:01,550 - query_handler - INFO - Querying with memory context
+2025-07-02 18:25:02,855 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:25:06,907 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-02 18:25:08,156 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:25:12,229 - query_handler - ERROR - Error generating response with llama3: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-02 18:25:12,252 - pipeline - INFO - Saved content to stories\Chronicles_of_Timeless_Love\story.txt
+2025-07-02 18:25:13,315 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:25:17,360 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-02 18:25:17,361 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-07-02 18:25:18,388 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:25:22,448 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-02 18:25:22,450 - pipeline - INFO - Saved content to stories\Chronicles_of_Timeless_Love\story_summaries.txt
+2025-07-02 18:25:22,452 - pipeline - INFO - Saved metadata to stories\Chronicles_of_Timeless_Love\metadata.json
+2025-07-02 18:25:22,453 - pipeline - INFO - New episode 2 added to 'Chronicles_of_Timeless_Love'
+2025-07-02 18:25:55,107 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:25:59,164 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-02 18:25:59,164 - query_handler - INFO - Querying with memory context
+2025-07-02 18:26:00,267 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:26:04,353 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-02 18:26:05,317 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:26:09,380 - query_handler - ERROR - Error generating response with llama3: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-02 18:26:09,384 - pipeline - INFO - Saved content to stories\Chronicles_of_Timeless_Love\story.txt
+2025-07-02 18:26:10,525 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:26:14,575 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-02 18:26:14,576 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-07-02 18:26:15,782 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:26:19,830 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-02 18:26:19,831 - pipeline - INFO - Saved content to stories\Chronicles_of_Timeless_Love\story_summaries.txt
+2025-07-02 18:26:19,833 - pipeline - INFO - Saved metadata to stories\Chronicles_of_Timeless_Love\metadata.json
+2025-07-02 18:26:19,834 - pipeline - INFO - New episode 3 added to 'Chronicles_of_Timeless_Love'
+2025-07-02 18:34:39,507 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:36:38,665 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:38:17,340 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-02 18:41:18,732 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-02 18:50:11,583 - query_handler - INFO - Querying with memory context
+2025-07-02 18:50:13,329 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:50:17,305 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 18:53:35,860 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-02 18:58:31,870 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-02 19:02:45,740 - query_handler - INFO - Querying with memory context
+2025-07-02 19:02:50,263 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 19:12:12,554 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-02 19:26:50,509 - query_handler - INFO - Using chunking strategy for long prompt
+2025-07-02 19:26:50,566 - query_handler - INFO - Split prompt into 2 chunks
+2025-07-02 19:26:55,721 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 19:31:28,154 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-02 19:34:26,657 - query_handler - INFO - Querying with memory context
+2025-07-02 19:34:30,353 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-02 19:43:59,295 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-02 19:46:36,836 - query_handler - INFO - Using chunking strategy for long prompt
+2025-07-02 19:46:36,873 - query_handler - INFO - Split prompt into 2 chunks
+2025-07-02 19:46:40,541 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-03 23:25:54,904 - config - INFO - Initial Model Provider: ollama
+2025-07-03 23:25:54,905 - config - INFO - Initial Small Model: mistral
+2025-07-03 23:25:54,906 - config - INFO - Initial Big Model: llama3
+2025-07-03 23:25:54,906 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-07-03 23:26:33,092 - pipeline - INFO - Generating story for idea: a good man ...
+2025-07-03 23:26:35,912 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-03 23:26:40,018 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-03 23:26:40,022 - pipeline - INFO - Created directory for story: stories\Error_WinError_10061_No_connection
+2025-07-03 23:26:44,189 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-03 23:26:48,234 - query_handler - ERROR - Error generating response with llama3: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-03 23:26:48,240 - pipeline - INFO - Saved content to stories\Error_WinError_10061_No_connection\story_bible.txt
+2025-07-03 23:26:49,416 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-03 23:26:53,470 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-03 23:26:53,472 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-07-03 23:26:53,476 - pipeline - INFO - Saved metadata to stories\Error_WinError_10061_No_connection\metadata.json
+2025-07-03 23:26:54,893 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-03 23:26:58,944 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-03 23:27:00,096 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-03 23:27:04,134 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-03 23:27:04,135 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-07-03 23:27:05,476 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-03 23:27:09,533 - query_handler - ERROR - Error generating response with mistral: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-03 23:27:09,538 - pipeline - INFO - Saved metadata to stories\Error_WinError_10061_No_connection\metadata.json
+2025-07-03 23:27:09,545 - pipeline - INFO - Saved content to stories\Error_WinError_10061_No_connection\story.txt
+2025-07-03 23:27:09,552 - pipeline - INFO - Saved content to stories\Error_WinError_10061_No_connection\story_summaries.txt
+2025-07-03 23:27:09,554 - pipeline - INFO - Story 'Error_WinError_10061_No_connection' generated successfully with 1 episodes
+2025-07-03 23:32:38,829 - config - INFO - Initial Model Provider: ollama
+2025-07-03 23:32:38,831 - config - INFO - Initial Small Model: mistral
+2025-07-03 23:32:38,831 - config - INFO - Initial Big Model: llama3
+2025-07-03 23:32:38,831 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-07-03 23:48:32,889 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-03 23:48:32,890 - config - INFO - Small Model: gemma
+2025-07-03 23:48:32,890 - config - INFO - Big Model: llama3
+2025-07-03 23:49:10,662 - pipeline - INFO - Generating story for idea: a good day ...
+2025-07-03 23:49:13,495 - query_handler - INFO - Initialized Ollama models: small=gemma, big=llama3
+2025-07-03 23:49:15,604 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-07-03 23:49:15,606 - query_handler - ERROR - Error generating response with gemma: model 'gemma' not found (status code: 404)
+2025-07-03 23:49:15,628 - pipeline - INFO - Created directory for story: stories\Error_model_gemma_not_found
+2025-07-03 23:49:19,228 - query_handler - INFO - Initialized Ollama models: small=gemma, big=llama3
+2025-07-03 23:51:46,205 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-03 23:55:27,939 - config - INFO - Initial Model Provider: ollama
+2025-07-03 23:55:27,940 - config - INFO - Initial Small Model: gemma
+2025-07-03 23:55:27,941 - config - INFO - Initial Big Model: llama3
+2025-07-03 23:55:27,941 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-07-03 23:55:33,400 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-03 23:55:33,401 - config - INFO - Small Model: mistral
+2025-07-03 23:55:33,401 - config - INFO - Big Model: llama3
+2025-07-03 23:58:08,638 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-03 23:58:08,639 - config - INFO - Small Model: gemma
+2025-07-03 23:58:08,639 - config - INFO - Big Model: llama3
+2025-07-04 00:00:23,314 - pipeline - INFO - Generating story for idea: a good guy...
+2025-07-04 00:00:24,676 - query_handler - INFO - Initialized Ollama models: small=gemma, big=llama3
+2025-07-04 00:00:26,876 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-07-04 00:00:26,878 - query_handler - ERROR - Error generating response with gemma: model 'gemma' not found (status code: 404)
+2025-07-04 00:00:26,892 - pipeline - INFO - Created directory for story: stories\Error_model_gemma_not_found
+2025-07-04 00:00:29,339 - query_handler - INFO - Initialized Ollama models: small=gemma, big=llama3
+2025-07-04 00:02:43,888 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-04 00:10:18,719 - config - INFO - Initial Model Provider: ollama
+2025-07-04 00:10:18,720 - config - INFO - Initial Small Model: gemma:2b
+2025-07-04 00:10:18,720 - config - INFO - Initial Big Model: llama3
+2025-07-04 00:10:18,720 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-07-04 00:10:22,071 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 00:10:22,072 - config - INFO - Small Model: mistral
+2025-07-04 00:10:22,072 - config - INFO - Big Model: llama3
+2025-07-04 00:10:22,636 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 00:10:22,636 - config - INFO - Small Model: gemma
+2025-07-04 00:10:22,637 - config - INFO - Big Model: llama3
+2025-07-04 00:10:57,908 - pipeline - INFO - Generating story for idea: a good guy...
+2025-07-04 00:11:00,451 - query_handler - INFO - Initialized Ollama models: small=gemma, big=llama3
+2025-07-04 00:11:02,672 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-07-04 00:11:02,674 - query_handler - ERROR - Error generating response with gemma: model 'gemma' not found (status code: 404)
+2025-07-04 00:11:02,685 - pipeline - INFO - Created directory for story: stories\Error_model_gemma_not_found
+2025-07-04 00:11:04,779 - query_handler - INFO - Initialized Ollama models: small=gemma, big=llama3
+2025-07-04 00:11:29,058 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-04 00:15:36,269 - config - INFO - Initial Model Provider: ollama
+2025-07-04 00:15:36,270 - config - INFO - Initial Small Model: gemma
+2025-07-04 00:15:36,270 - config - INFO - Initial Big Model: llama3
+2025-07-04 00:15:36,270 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-07-04 00:15:42,066 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 00:15:42,067 - config - INFO - Small Model: mistral
+2025-07-04 00:15:42,068 - config - INFO - Big Model: llama3
+2025-07-04 00:16:17,518 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 00:16:17,519 - config - INFO - Small Model: gemma
+2025-07-04 00:16:17,520 - config - INFO - Big Model: llama3
+2025-07-04 00:16:58,554 - pipeline - INFO - Generating story for idea: a good boy...
+2025-07-04 00:17:01,108 - query_handler - INFO - Initialized Ollama models: small=gemma, big=llama3
+2025-07-04 00:17:03,434 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2025-07-04 00:17:03,437 - query_handler - ERROR - Error generating response with gemma: model 'gemma' not found (status code: 404)
+2025-07-04 00:17:03,447 - pipeline - INFO - Created directory for story: stories\Error_model_gemma_not_found
+2025-07-04 00:17:06,456 - query_handler - INFO - Initialized Ollama models: small=gemma, big=llama3
+2025-07-04 00:19:03,072 - config - INFO - Initial Model Provider: ollama
+2025-07-04 00:19:03,073 - config - INFO - Initial Small Model: gemma
+2025-07-04 00:19:03,074 - config - INFO - Initial Big Model: llama3
+2025-07-04 00:19:03,074 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-07-04 00:19:07,222 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 00:19:07,226 - config - INFO - Small Model: mistral
+2025-07-04 00:19:07,230 - config - INFO - Big Model: llama3
+2025-07-04 00:26:20,652 - config - INFO - Initial Model Provider: ollama
+2025-07-04 00:26:20,653 - config - INFO - Initial Small Model: gemma:2b
+2025-07-04 00:26:20,653 - config - INFO - Initial Big Model: llama3
+2025-07-04 00:26:20,653 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-07-04 00:26:23,596 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 00:26:23,596 - config - INFO - Small Model: mistral
+2025-07-04 00:26:23,596 - config - INFO - Big Model: llama3
+2025-07-04 00:27:16,615 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 00:27:16,616 - config - INFO - Small Model: gemma
+2025-07-04 00:27:16,616 - config - INFO - Big Model: llama3
+2025-07-04 00:33:05,902 - config - INFO - Initial Model Provider: ollama
+2025-07-04 00:33:05,902 - config - INFO - Initial Small Model: gemma:2b
+2025-07-04 00:33:05,902 - config - INFO - Initial Big Model: llama3
+2025-07-04 00:33:05,903 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-07-04 00:33:07,778 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 00:33:07,778 - config - INFO - Small Model: mistral
+2025-07-04 00:33:07,779 - config - INFO - Big Model: llama3
+2025-07-04 01:06:58,084 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 01:06:58,085 - config - INFO - Small Model: phi
+2025-07-04 01:06:58,085 - config - INFO - Big Model: llama3
+2025-07-04 01:07:04,359 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 01:07:04,359 - config - INFO - Small Model: mistral
+2025-07-04 01:07:04,360 - config - INFO - Big Model: llama3
+2025-07-04 01:07:13,253 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 01:07:13,254 - config - INFO - Small Model: phi
+2025-07-04 01:07:13,254 - config - INFO - Big Model: llama3
+2025-07-04 01:08:13,858 - pipeline - INFO - Generating story for idea: a good children ...
+2025-07-04 01:08:15,135 - query_handler - INFO - Initialized Ollama models: small=phi, big=llama3
+2025-07-04 01:08:42,315 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-04 01:09:11,001 - pipeline - INFO - Created directory for story: stories\A_possible_story_for_this
+2025-07-04 01:09:12,381 - query_handler - INFO - Initialized Ollama models: small=phi, big=llama3
+2025-07-04 01:11:16,868 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-04 01:20:23,196 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 01:20:23,252 - config - INFO - Small Model: mistral
+2025-07-04 01:20:23,254 - config - INFO - Big Model: llama3
+2025-07-04 01:20:56,832 - pipeline - INFO - Saved content to stories\A_possible_story_for_this\story_bible.txt
+2025-07-04 01:20:58,737 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-04 01:27:24,089 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-04 01:32:07,481 - pipeline - WARNING - JSON parsing failed for character extraction from story bible
+2025-07-04 01:32:07,521 - pipeline - INFO - Saved metadata to stories\A_possible_story_for_this\metadata.json
+2025-07-04 01:32:10,375 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-04 01:35:00,216 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-04 01:39:12,911 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-04 01:46:45,487 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 01:46:45,540 - config - INFO - Small Model: phi
+2025-07-04 01:46:45,545 - config - INFO - Big Model: llama3
+2025-07-04 01:47:26,255 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-04 01:47:45,911 - config - INFO - Configuration reloaded, using provider: ollama
+2025-07-04 01:47:45,917 - config - INFO - Small Model: mistral
+2025-07-04 01:47:45,920 - config - INFO - Big Model: llama3
+2025-07-04 01:51:19,910 - pipeline - WARNING - JSON parsing failed for character extraction, using regex fallback
+2025-07-04 01:51:22,261 - query_handler - INFO - Initialized Ollama models: small=mistral, big=llama3
+2025-07-04 01:54:16,663 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-07-04 01:59:47,039 - pipeline - INFO - Saved metadata to stories\A_possible_story_for_this\metadata.json
+2025-07-04 01:59:47,072 - pipeline - INFO - Saved content to stories\A_possible_story_for_this\story.txt
+2025-07-04 01:59:47,077 - pipeline - INFO - Saved content to stories\A_possible_story_for_this\story_summaries.txt
+2025-07-04 01:59:47,078 - pipeline - INFO - Story 'A_possible_story_for_this' generated successfully with 1 episodes

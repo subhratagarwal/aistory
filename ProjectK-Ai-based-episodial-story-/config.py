@@ -32,11 +32,11 @@ def load_user_config():
             "ollama_base_url": "http://localhost:11434",
             "small_model_map": {
                 "openai": "gpt-3.5-turbo",
-                "ollama": "mistral"
+                "ollama": "mistral:7b-text-q4_0"
             },
             "big_model_map": {
                 "openai": "gpt-4-turbo",
-                "ollama": "llama3"
+                "ollama": "mistral:7b-text-q4_0"
             }
         }
     except Exception as e:
@@ -71,9 +71,9 @@ def get_model_names(model_type="small"):
     """Get model names dynamically for the current provider."""
     provider = get_model_provider()
     if model_type == "small":
-        return USER_CONFIG.get("small_model_map", {}).get(provider, "mistral")
+        return USER_CONFIG.get("small_model_map", {}).get(provider, "mistral:7b-text-q4_0")
     else:
-        return USER_CONFIG.get("big_model_map", {}).get(provider, "llama3")
+        return USER_CONFIG.get("big_model_map", {}).get(provider, "mistral:7b-text-q4_0")
 
 # Function to get Ollama base URL (dynamic)
 def get_ollama_base_url():

@@ -1,0 +1,4 @@
+2025-06-09 01:33:44,977 - config - INFO - Initial Model Provider: ollama
+2025-06-09 01:33:44,978 - config - INFO - Initial Small Model: mistral
+2025-06-09 01:33:44,979 - config - INFO - Initial Big Model: llama3
+2025-06-09 01:33:44,979 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True

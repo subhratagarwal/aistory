@@ -1,3 +1,6 @@
 streamlit
 langchain
 ollama
+openai
+python-dotenv
+langchain-ollama
