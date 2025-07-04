@@ -1083,3 +1083,11 @@
 2025-07-04 01:59:47,072 - pipeline - INFO - Saved content to stories\A_possible_story_for_this\story.txt
 2025-07-04 01:59:47,077 - pipeline - INFO - Saved content to stories\A_possible_story_for_this\story_summaries.txt
 2025-07-04 01:59:47,078 - pipeline - INFO - Story 'A_possible_story_for_this' generated successfully with 1 episodes
+2025-07-04 18:40:05,398 - config - INFO - Initial Model Provider: ollama
+2025-07-04 18:40:05,400 - config - INFO - Initial Small Model: mistral
+2025-07-04 18:40:05,400 - config - INFO - Initial Big Model: llama3
+2025-07-04 18:40:05,401 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
+2025-07-04 19:19:24,599 - config - INFO - Initial Model Provider: ollama
+2025-07-04 19:19:24,602 - config - INFO - Initial Small Model: mistral
+2025-07-04 19:19:24,602 - config - INFO - Initial Big Model: llama3
+2025-07-04 19:19:24,602 - config - INFO - Memory Settings: Max Episodes=3, Summarization=True
