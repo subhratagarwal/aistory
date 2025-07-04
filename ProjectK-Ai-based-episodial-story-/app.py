@@ -14,7 +14,7 @@ def get_existing_stories():
 
 def main():
     st.title("📚 AI-Powered Episodic Storytelling")
-    st.sidebar.image("ai.jpg.webp", width=150)
+    st.sidebar.image("ai.jpg", width=150)
     
     # Configuration section in sidebar
     with st.sidebar:
