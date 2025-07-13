@@ -89,7 +89,7 @@ Successfully used in academic and hackathon settings.
 🙋‍♂️ Author
 Subhrat Agarwal
 📧 subhratagarwal1234@gmail.com
-🔗 LinkedIn | GitHub | Live Demo
+🔗 LinkedIn | GitHub |🔗 **[Live Demo](https://subhratagarwal-ais-projectk-ai-based-episodial-story-app-j6rkga.streamlit.app/)**
 
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
