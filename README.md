@@ -42,6 +42,7 @@ ai-episodic-story-generator/
 bash
 Copy
 Edit
+---
 
 ## 🛠 Installation
 
@@ -79,14 +80,20 @@ torch or tensorflow
 streamlit
 Make sure to download necessary NLP models (like spacy's en_core_web_sm).
 
+---
 🏆 Achievements
-Built completely offline with a focus on narrative quality.
 
-Supports story progression, plot depth, and user customization.
 
-Successfully used in academic and hackathon settings.
+-Built completely offline with a focus on narrative quality.
+
+-Supports story progression, plot depth, and user customization.
+
+-Successfully used in academic and hackathon settings.
+
+---
 
 🙋‍♂️ Author
+---
 Subhrat Agarwal
 📧 subhratagarwal1234@gmail.com
 🔗 LinkedIn | GitHub |🔗 **[Live Demo](https://subhratagarwal-ais-projectk-ai-based-episodial-story-app-j6rkga.streamlit.app/)**
