@@ -26,7 +26,7 @@ An offline AI-powered system that generates coherent, multi-episode storylines f
 
 ## 📷 Screenshots
 
-![App Screenshot](assets/story-app-demo.png)
+![App Screenshot](assets/image.jpg)
 
 ## 📁 Folder Structure
 
